@@ -35,8 +35,7 @@ It also includes a **health-focused chatbot** that gives dynamic, non-repetitive
 - AI analyzes custom input as well  
 
 ### 🔒 Secure Authentication  
-- User login & signup using **Supabase Auth / JWT / Firebase**  
-- Role-based access (User / Admin)  
+- User login & signup using **Supabase Auth / JWT / Firebase**    
 - Encrypted user data storage  
 
 ### 🕒 User History  
