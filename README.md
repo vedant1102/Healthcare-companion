@@ -1,73 +1,67 @@
-# Welcome to your Lovable project
+# 🩺 HealthMate – AI Health Companion  
 
-## Project info
+> An intelligent full-stack health tracking and AI diagnosis platform that acts like your personal doctor — securely managing your health data, analyzing symptoms, and suggesting medicines or home remedies dynamically.
 
-**URL**: https://lovable.dev/projects/07329d05-a54c-4923-914e-623176e0f294
+---
 
-## How can I edit this code?
+## 🚀 Overview  
 
-There are several ways of editing your application.
+**HealthMate** is an AI-powered web application that helps users track daily health symptoms, analyze them using machine learning, and get personalized suggestions for possible conditions, medications, or natural remedies.  
 
-**Use Lovable**
+It also includes a **health-focused chatbot** that gives dynamic, non-repetitive advice — acting like a digital doctor while respecting user privacy.  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/07329d05-a54c-4923-914e-623176e0f294) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ Key Features  
 
-**Use your preferred IDE**
+### 🧠 AI Diagnosis Engine  
+- Analyzes symptoms using **OpenAI/Hugging Face models**  
+- Suggests possible conditions dynamically  
+- Recommends **medicines** or **home remedies** based on user preference  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 💬 Intelligent Health Chatbot  
+- Conversational, context-aware AI doctor assistant  
+- Dynamic (non-hardcoded) responses  
+- Focused on health, wellness, and basic treatment guidance  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 📊 Personalized Dashboard  
+- Beautiful, modern UI with health analytics  
+- Interactive charts (Recharts/Chart.js) showing symptom trends  
+- Displays user history, improvements, and tips  
 
-Follow these steps:
+### 🧾 Symptom Management  
+- Predefined list of common symptoms  
+- Option to **add custom symptoms** dynamically  
+- AI analyzes custom input as well  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🔒 Secure Authentication  
+- User login & signup using **Supabase Auth / JWT / Firebase**  
+- Role-based access (User / Admin)  
+- Encrypted user data storage  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 🕒 User History  
+- Track health logs day-by-day  
+- View previous diagnoses and AI suggestions  
+- Export reports (PDF) for medical consultations  
+2️⃣ Install Dependencies
+npm install
+# or
+yarn install
 
-# Step 3: Install the necessary dependencies.
-npm i
+3️⃣ Set Up Environment Variables
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Create a .env file in the root folder and add:
+
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
+OPENAI_API_KEY=your_openai_api_key
+
+4️⃣ Run the Development Server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Then open http://localhost:3000
+ in your browser.
+ 
 
-**Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/07329d05-a54c-4923-914e-623176e0f294) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
